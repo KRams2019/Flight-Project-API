@@ -1,6 +1,6 @@
-
-hosts: all
-name: "Flight API Deployment"
-become: yes
-roles:
- - flight-api
+---
+- hosts: all
+  name: "Flight API Deployment"
+  become: yes
+  roles:
+   - flight-api
