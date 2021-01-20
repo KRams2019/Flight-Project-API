@@ -4,7 +4,7 @@ node {
 
      
   stage('Git-Checkout') {
-   git branch: 'terraform', url:'https://github.com/KRams2019/Flight-Project-API.git'
+   git branch: 'master', url:'https://github.com/KRams2019/Flight-Project-API.git'
   }
  
  def project_path=""
