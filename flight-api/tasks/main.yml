@@ -28,7 +28,7 @@
 
 - name: Copy war file
   copy:
-   src: /root/.jenkins/workspace/Flight-Project-API/target/*.jar
+   src: /root/.jenkins/workspace/Flight-Project-API/target/airline-0.0.1-SNAPSHOT.jar
    dest: /home/flight-api/target
 
 - name: Copy Dockerfile
