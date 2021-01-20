@@ -38,7 +38,7 @@
 
 - name: Copy Docker-Compose
   copy:
-   src: /root/.jenkins/workspace/spring_flight_api/Dockerfile
+   src: /root/.jenkins/workspace/Flight-Project-API/docker-compose.yml
    dest: /home/flight-api/
 
 - name: Run Docker Compose
